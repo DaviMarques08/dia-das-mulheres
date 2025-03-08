@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20%;
+}
+.container {
+background: white;
+padding: 30%;
+border-radius: 15%;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+display: inline-block;
+max-width: 500px;
+margin: auto;
+animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 {
+    color: #d63384;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+}
+.botao-grande {
+    background: linear-gradient(to right, #d63384, #a02464);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.botao-grande:hover {
+background-color: white;
+transform: scale(1.1);  
+}
+.hidden {
+    display: none;
+}
+.mensagem-efeito{
+    font-size: 20px;
+    color: #d63384;
+    font-weight: bold;
+    margin-top: 15px;
+    animation: fadeIn 1s ease-in-out
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to{
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+.imagem-especial {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 300px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

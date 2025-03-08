@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia Das Mulheres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Feliz dia das mulheres eu te amo muito</h1>
+        <img src="imagem.jpg/imagem.jpg.jpg" alt="nossa foto juntos" class="imagem-especial">
+        <p>Hoje é um dia que representa você meu amor, e você merece todo amor que eu posso lhe oferecer. Eu te amo demais!</p>
+        <button onclick="mostrarMensagem()" id="botao" class="botao-grande">Clique Aqui</button> 
+        <p id="mensagem" class="hidden mensagem-efeito">Você é a minha princesa linda!</p>
+    </div>
+    <script>
+        function mostrarMensagem() {
+            let mensagem = document.getElementById("mensagem");
+            mensagem.classList.toggle("hidden");           
+        }
+    </script>
+</body>
+
+</html>
